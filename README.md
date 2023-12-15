@@ -4,7 +4,12 @@
 
 Add file `.env` to the project root with the variables below.
 
-```
+```bash
 PORT=3000
-TELEGRAM_TOKEN=your_token
+
+# Create the bot on Telegram and place the token here
+TELEGRAM_TOKEN=
+
+# URL of where your backend is hosted
+URL_SERVER=
 ```
