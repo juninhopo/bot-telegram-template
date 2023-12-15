@@ -16,6 +16,7 @@ api.use('/', routes)
 
 const date = new Date().toISOString()
 api.get('/', (req, res) => {
+  req.log.info('Route: Health Check')
   res.send(`Bot lives! ${date}`)
 })
 
